@@ -1,0 +1,77 @@
+/* Global */
+/* cross browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    font-family: 'Jost', sans-serif;
+}
+
+/* HEADER */
+header.main-header {
+    background-color: #ffff;
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 90px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #189a46;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item{
+    padding: 0 12px;
+    position: relative;
+}
+.navbar-nav .nav-item .search-icon{
+    display: block;
+    padding: 14px 0;
+    background-color: #F9F7FE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #189a46;
+    line-height: 15px;
+}
+
+.nav-item .nav-link{
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding: 14px 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    position: relative;
+    color: #000;
+}
+.nav-item a.nav-link::before{
+    position: absolute;
+    content: '';
+    background:#189a46;
+    width: 0px;
+    height: 1px;
+    bottom: 13px;
+}
+.nav-item .nav-link:hover{
+    color: #189a46;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active{
+    color: #189a46;
+}
+.navbar-nav .nav-item .nav-link .dropdown-icon{
+    color: #999;
+    font-size: small;
+}
