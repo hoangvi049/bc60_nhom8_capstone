@@ -75,3 +75,253 @@ header.main-header {
     color: #999;
     font-size: small;
 }
+
+/* About  */
+.services-container{
+    margin: auto;
+}
+.title p{ 
+    color: #f53626;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.title h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.title span{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #696969;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.title a{
+text-decoration: none;
+font-size: 17px;
+color: #000c04;
+border-bottom: 2px solid #189a46;
+font-weight: 600;
+transition: all 0.5s;
+}
+.title a:hover{
+    color: #189a46;
+}
+
+
+/* services  */
+.services{
+    background-color: rgba(147, 107, 232, 0.05);
+}
+.services .card-body i{
+    color: #189a46;
+    font-size: 30px;
+}
+.services .card-body h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.services .card-body h4:hover{
+    color: #189a46;
+}
+.services .card-body p{
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
+.services .card-body{
+    background-color: white;
+}
+.services .box{
+    padding: 40px 30px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.services .box:hover{
+   background-color: rgba(147, 107, 232, 0.05);
+}
+.services .card-body a{
+    text-decoration: none;
+    color: #000c04;
+    font-size: 17px;
+    border-bottom: 2px solid #189a46;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    transition: all 0.5s;
+}
+.services .card-body a:hover{
+    color: #189a46;
+}
+
+
+
+/* whychoose */
+
+.imagin{
+    padding-left: 3rem;
+}
+.whychoose img{
+    width: 100%;
+    border-radius: 10px;
+}
+.whychoose .title span{
+ font-size: 16px;   
+}
+.whychoose li{
+    list-style: none;
+    padding-bottom: 13px;
+    font-weight: 600;
+}
+.whychoose li i{
+    color: #189a46;
+    font-size: 11px;
+    background-color: rgba(147, 107, 232, 0.05);
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.whychoose__left{
+    align-self: center;
+}
+
+/* stats  */
+.stats{
+    background-color: #189a46;
+
+}
+.stats__item{
+    align-self: center;
+}
+.stats__item h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    
+}
+.stats__item p{
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 737px) {
+    .stats__item h3{
+        font-size: 35px !important;
+    }
+    .stats__item{
+        margin: 20px 0;
+    }
+}   
+
+
+/* ourplan  */
+.ourplan{
+    background-color: rgba(147, 107, 232, 0.05);
+}
+
+.ourplan .ourplan__item{
+    padding: 3.5em 2.5em;
+    background-color: white;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.title_packages{
+    text-align: center;
+}
+.title_packages h4{
+    font-size: 40px;
+    line-height: 25px;
+    margin: 15px 0 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #189A46;
+}
+.title_packages h3{
+    font-size: 23px;
+    font-weight: 700;
+}
+.title_packages h4 span{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    font-weight: 400;
+}
+.title_packages h4 label{
+    font-size: 25px;
+    vertical-align: text-top;
+}
+.List__packages{
+    text-align: center;
+} 
+.ourplan__item_center{
+    padding: 0;
+    box-shadow: 0px 12px 20px 10px rgba(17, 17, 17, 0.09);
+    border-radius: 10px;
+    z-index:1;
+}
+.ourplan__item_center .title_packages{
+    padding: 3em 2.5em 0.5em;
+    background: #189a46;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+}
+.ourplan__item_center .title_packages p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #189A46;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.ourplan__item_center .title_packages span{
+    color: white;
+}
+.ourplan__item_center .title_packages h4{
+    color: white;
+}
+.ourplan__item_center .List__packages{
+    background-color: #fff;
+    padding: 3.5em 2.5em;
+    border-radius: 0 0 10px 10px;
+}
+.List__packages .List{
+    color: #696969;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    align-self: center;
+    padding-top: 6px;
+}
+.btn-buy{
+    margin-top: 2em;
+}
+.btn-buy button{
+    color: white;
+    background-color: #189A46;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+@media screen and (max-width:991px) {
+    .ourplan__screen{
+        width: 70% !important;
+        margin: auto;
+    }
+}
