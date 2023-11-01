@@ -30,8 +30,20 @@ header.main-header {
     text-transform: capitalize;
     color: #189a46;
 }
+.navbar .navbar-toggler{
+    background-color: #189a46;
+}
+.navbar .navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+}
+.navbar .navbar-toggler-icon i{
+    color: #fff;
+    font-size: 20px;
+}
+
 .navbar .navbar-collapse .navbar-nav .nav-item{
-    padding: 0 12px;
+    padding: 0 9px;
     position: relative;
 }
 .navbar-nav .nav-item .search-icon{
@@ -45,6 +57,11 @@ header.main-header {
     font-size: 15px;
     color: #189a46;
     line-height: 15px;
+    transition: all .5s;
+}
+.nav-item .search-icon:hover{
+    background-color: #189a46;
+    color:#fff;
 }
 
 .nav-item .nav-link{
@@ -63,6 +80,10 @@ header.main-header {
     width: 0px;
     height: 1px;
     bottom: 13px;
+    transition: all .5s;
+}
+.nav-item a.nav-link:hover::before{
+    width: 80%;
 }
 .nav-item .nav-link:hover{
     color: #189a46;
@@ -70,7 +91,9 @@ header.main-header {
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active{
     color: #189a46;
+    transition: all .5s;
 }
+
 .navbar-nav .nav-item .nav-link .dropdown-icon{
     color: #999;
     font-size: small;
@@ -324,4 +347,96 @@ transition: all 0.5s;
         width: 70% !important;
         margin: auto;
     }
+}
+/* Carousel */
+
+.carousel .owl-carousel .item{
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.carousel .owl-carousel .carousel-item-overlay{
+    background:#000;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel .owl-carousel .banner1{
+    background-image: url("./../img/banner1.jpg");
+}
+.carousel .owl-carousel .banner2{
+    background-image: url("./../img/banner2.jpg");
+}
+
+.owl-carousel .owl-dots{
+    margin-top: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span{
+    background: #189a46!important;
+    width: 30px;
+}
+.owl-carousel .owl-dots .owl-dot:hover span{
+    background: #189a46!important;
+    width: 30px;
+}
+
+.owl-carousel .banner1 .carousel-infor{
+    max-width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.owl-carousel .banner2 .carousel-infor{
+    max-width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.carousel-infor h1{
+    font-size: 60px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.carousel-infor p{
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.carousel-infor .btn{
+    padding: 12px 35px;
+    margin: 20px 5px;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+
+}
+.btn-white{
+    background-color: #fff;
+    color: #189a46;
+}
+.btn-normal{
+    border-color: #fff;
+    color: #fff;
+}
+.btn-normal:hover{
+    background-color: #fff;
+    color: #189a46;
 }
