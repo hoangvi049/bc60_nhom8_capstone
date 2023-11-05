@@ -43,7 +43,6 @@ header.main-header {
 }
 
 .navbar .navbar-collapse{
-    background-color: #fff;
     text-align: center;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item{
@@ -107,7 +106,7 @@ header.main-header {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active{
-    color: #189a46;
+    color: #189a46 !important ;
     transition: all .5s;
 }
 
@@ -115,6 +114,82 @@ header.main-header {
     color: #999;
     font-size: small;
 }
+
+/* Light theme */
+#myBody {
+    background-color: white;
+}
+#switchButton {
+    background-color: white;
+  }
+#switchButton .fa-sun {
+    display: none;
+}
+#switchButton .fa-moon {
+    display: block;
+}
+.dark #switchButton .fa-sun {
+    display: block;
+    color: #404040;
+    background-color: #151515;
+    transition: all 0.5s;
+}
+.dark #site-header{
+    background-color: #151515;
+}
+.dark #switchButton .fa-moon{
+    display: none;
+}
+.dark#myBody {
+    background-color: #151515;
+}
+.dark #myBody {
+    background-color: #151515 !important;
+}
+
+.dark #myBody .navbar .navbar-collapse{
+    background-color: #151515 !important;
+}
+.fa-moon:before,
+.fa-sun:before{
+    content: "";
+}
+.fa-moon,
+.fa-sun{
+    cursor: default;
+}
+.dark #themedark{
+    color: white;
+}
+.dark .navbar-collapse .search-right .search-icon{
+    background-color: #222;
+}
+.dark .navbar-collapse .search-right .search-icon:hover{
+    background-color: #189A46;
+}
+.dark .color_P{
+    color: #afafaf;
+}
+.dark #themedark.hoverDark:hover{
+    color: #189A46;
+}
+
+.dark #themeDark2{
+    background-color: #222;
+}
+.dark .services-container .box{
+    background-color: #151515;
+}
+.dark #themeDark2 .box .card-title:hover{
+    color: #189A46;
+}
+.dark #themeDark2 .box a:hover{
+    color: #189A46;
+}
+.dark #themeDark2 .box:hover{
+    background-color: #222;
+}
+
 
 /* About  */
 .services-container{
@@ -300,6 +375,7 @@ transition: all 0.5s;
 .title_packages h4 label{
     font-size: 25px;
     vertical-align: text-top;
+    color: #189A46;
 }
 .List__packages{
     text-align: center;
