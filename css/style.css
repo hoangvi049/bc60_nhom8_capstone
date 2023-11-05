@@ -45,12 +45,20 @@ header.main-header {
 .navbar .navbar-collapse{
     text-align: center;
 }
+.navbar .navbar-collapse.show{
+    text-align: center;
+    background-color: #fff;
+}
 .navbar .navbar-collapse .navbar-nav .nav-item{
     padding: 0 9px;
     position: relative;
 }
+/* .navbar-nav.themedarkNav{
+    background-color: rgb(21, 21, 21)!important;
+    color: #fff!important;
+} */
 .search-right li{
-       list-style: none;
+    list-style: none;
     padding-top: 13px;
 }
 
@@ -71,10 +79,14 @@ header.main-header {
     background-color: #189a46;
     color:#fff;
 }
-.dark-theme{
-    padding-top: 13px;
-}
 
+@media screen and (max-width: 990px){
+    .darke-theme{
+        position: absolute;
+        top: 25px;
+        right: 70px;
+    }
+}
 .nav-item .nav-link{
     text-transform: capitalize;
     transition: all 0.5s ease;
@@ -161,6 +173,10 @@ header.main-header {
 .dark #themedark{
     color: white;
 }
+.dark .navbar-collapse.show{
+    background-color: #222;
+}
+
 .dark .navbar-collapse .search-right .search-icon{
     background-color: #222;
 }
@@ -494,6 +510,23 @@ transition: all 0.5s;
     position: absolute;
     top: 30%;
     left: 40%;
+}
+@media screen and (max-width: 600px) {
+    .owl-carousel .banner2 .carousel-infor{
+        max-width: 700px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+}
+@media (max-width: 480px){
+    .owl-carousel .carousel-infor h1{
+        font-size: 32px;
+    line-height: 42px;
+    }
+     .owl-carousel .carousel-infor p{
+        font-size: 15px;
+     }
 }
 .carousel-infor h1{
     font-size: 60px;

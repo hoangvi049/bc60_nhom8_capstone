@@ -40,13 +40,15 @@
 <body id="myBody">
     <header id="site-header" class="main-header fixed-top">
         <div class="container">
+
             <nav class="navbar navbar-expand-lg">
                 <h1><a class="navbar-brand" href="#">Pooch Care</a></h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbar-content"
+                    aria-label="Toggle Navigation" aria-expanded="false" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" id="themedark">
                         <li class="nav-item">
                             <a id="themedark" class="nav-link active" href="#home">Home</a>
                         </li>
@@ -71,7 +73,7 @@
                     <ul class="search-right mt-lg-0 mt-2">
                         <li>
                             <a class="search-icon" href="#"><span><i
-                            class="fa-solid fa-magnifying-glass "></i></span></a>
+                                        class="fa-solid fa-magnifying-glass "></i></span></a>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +83,7 @@
                     </span>
                     <span class="material-symbols-outlined fa-sun">
                         light_mode
-                     </span>
+                    </span>
                 </div>
             </nav>
         </div>
@@ -134,8 +136,9 @@
     <section class="about container py-5">
         <div class="title text-center py-5">
             <p>ABOUT US</p>
-            <h3 id="themedark"  >We Love Your Pets Like They Are Our Own</h3>
-            <span class="mt-4 mb-4 color_P">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+            <h3 id="themedark">We Love Your Pets Like They Are Our Own</h3>
+            <span class="mt-4 mb-4 color_P">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic
+                odio
                 <br />
                 voluptatem tenetur
                 consequatur. Vestibulum ante ipsum primis in faucibus orci luctus <br />
@@ -238,7 +241,7 @@
                         <li id="themedark">
                             <i class="fa-solid fa-check"></i>
                             Pet Lover
-                        </li >
+                        </li>
                         <li id="themedark"><i class="fa-solid fa-check"></i>
                             Customer Supports
                         </li>
@@ -300,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <div  class="col-lg-4 ourplan__item_center ourplan__screen">
+                <div class="col-lg-4 ourplan__item_center ourplan__screen">
                     <div class="title_packages">
                         <p>SAVE 10%</p>
                         <h3>Standard Package</h3>
@@ -308,7 +311,7 @@
                             <label>$</label>39<span>/month</span>
                         </h4>
                     </div>
-                    <div id="myBody"" class="List__packages">
+                    <div id="myBody"" class=" List__packages">
                         <div class="List">
                             <p>5 Dog Walk</p>
                             <p>3 Vet Visit</p>
@@ -316,7 +319,7 @@
                             <p>Free Supports</p>
                             <p>Customer Support</p>
                         </div>
-                        <div  id="btn_buy" class="btn-buy">
+                        <div id="btn_buy" class="btn-buy">
                             <button>Get Started</button>
                         </div>
                     </div>
