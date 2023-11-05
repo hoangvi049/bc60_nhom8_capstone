@@ -332,7 +332,12 @@ header.main-header {
 .dark #themedark.hoverDark:hover{
     color: #189A46;
 }
-
+.dark .testimonials .testimonial {
+    background-color: #151515;
+}
+.dark .testimonials .testimonial h3{
+    color: #fff;
+}
 .dark #themeDark2{
     background-color: #222;
 }
@@ -603,9 +608,6 @@ transition: all 0.5s;
 
 
 /* popup */
-.better {
-    background: var(--bg-color);
-}
 
 .better .better-block {
     display: grid;
@@ -628,9 +630,18 @@ transition: all 0.5s;
 }
 
 .better-title {
-
+    
     margin: 0 auto;
     width: 60%;
+}
+.better-content{
+    color: #696969;
+    font-size: 1.2rem;
+    line-height: 28px;
+    font-family: 'Jost', sans-serif;
+}
+.better .position-relative img{
+    border-radius: 10px 10px;
 }
 .better span.video-play-icon {
     background: white;
@@ -831,9 +842,6 @@ blockquote {
 }
 
 /* stay update */
-.stay_update {
-    background-color: var(--bg-color);
-}
 
 .stay_update .subscribe {
     max-width: 650px;
@@ -847,6 +855,12 @@ blockquote {
     margin: 0;
     padding: 0;
     color: var(--heading-colorr);
+}
+.stay_update p{
+    color: #696969;
+    font-size: 1.2em;
+    line-height: 28px;
+    font-family: 'Jost', sans-serif;
 }
 
 .stay_update .subscribe-wthree-field {
