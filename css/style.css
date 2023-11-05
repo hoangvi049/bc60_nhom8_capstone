@@ -50,7 +50,12 @@ header.main-header {
     padding: 0 9px;
     position: relative;
 }
-.navbar-nav .nav-item .search-icon{
+.search-right li{
+       list-style: none;
+    padding-top: 13px;
+}
+
+.search-right .search-icon{
     display: block;
     padding: 14px 0;
     background-color: #F9F7FE;
@@ -63,9 +68,12 @@ header.main-header {
     line-height: 15px;
     transition: all .5s;
 }
-.nav-item .search-icon:hover{
+.search-right .search-icon:hover{
     background-color: #189a46;
     color:#fff;
+}
+.dark-theme{
+    padding-top: 13px;
 }
 
 .nav-item .nav-link{
