@@ -37,7 +37,7 @@
 
 </head>
 
-<body>
+<body id="myBody">
     <header id="site-header" class="main-header fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
@@ -48,19 +48,19 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
+                            <a id="themedark" class="nav-link active" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a id="themedark" class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a id="themedark" class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a id="themedark" class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pages
+                            <a id="themedark" class="nav-link" href="#">Pages
                                 <i class="dropdown-icon fa-solid fa-chevron-down"></i>
                             </a>
 
@@ -68,20 +68,23 @@
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a id="themedark" class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav search-right mt-lg-0 mt-2">
                         <li class="nav-item ">
                             <a class="search-icon" href="#"><span><i
-                                        class="fa-solid fa-magnifying-glass "></i></span></a>
+                            class="fa-solid fa-magnifying-glass "></i></span></a>
                         </li>
                     </ul>
                 </div>
-                <div class="darke-theme d-flex ml-3">
-                    <span class="material-symbols-outlined">
+                <div id="switchButton" class="darke-theme d-flex ml-3" title="Click to switch theme">
+                    <span class="material-symbols-outlined fa-moon">
                         dark_mode
                     </span>
+                    <span class="material-symbols-outlined fa-sun">
+                        light_mode
+                     </span>
                 </div>
             </nav>
         </div>
@@ -134,78 +137,78 @@
     <section class="about container py-5">
         <div class="title text-center py-5">
             <p>ABOUT US</p>
-            <h3>We Love Your Pets Like They Are Our Own</h3>
-            <span class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+            <h3 id="themedark"  >We Love Your Pets Like They Are Our Own</h3>
+            <span class="mt-4 mb-4 color_P">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
                 <br />
                 voluptatem tenetur
                 consequatur. Vestibulum ante ipsum primis in faucibus orci luctus <br />
                 et ultrices posuere cubilia Curae;
                 Nulla mollis dapibus nunc, ut rhoncus turpis<br /> sodales quis.
             </span>
-            <a href="">Read More</a>
+            <a id="themedark" class="hoverDark" href="">Read More</a>
         </div>
     </section>
-    <section class="services py-5">
+    <section id="themeDark2" class="services py-5">
         <div class="container services-container">
             <div class="row py-5">
                 <div class="col-12 col-md-6  col-lg-4 mb-4 ">
                     <div class="card-body box ">
                         <i class="fa-regular fa-snowflake"></i>
-                        <h4 class="card-title">Dog Walking</h4>
+                        <h4 id="themedark" class="card-title">Dog Walking</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-4 mb-4 ">
                     <div class="card-body box ">
                         <i class="fa-solid fa-utensils"></i>
-                        <h4 class="card-title">Healthy Meals</h4>
+                        <h4 id="themedark" class="card-title">Healthy Meals</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-4 mb-4 ">
                     <div class="card-body box">
                         <i class="fa-solid fa-hands"></i>
-                        <h4 class="card-title">Pet Sitting</h4>
+                        <h4 id="themedark" class="card-title">Pet Sitting</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-4 mb-4 ">
                     <div class="card-body box">
                         <i class="fa-solid fa-sitemap"></i>
-                        <h4 class="card-title">Dog Activities</h4>
+                        <h4 id="themedark" class="card-title">Dog Activities</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-4 mb-4">
                     <div class="card-body box">
                         <i class="fa-solid fa-shower"></i>
-                        <h4 class="card-title">Pet Daycare</h4>
+                        <h4 id="themedark" class="card-title">Pet Daycare</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6  col-lg-4 mb-4 ">
                     <div class="card-body box">
                         <i class="fa-solid fa-user-doctor"></i>
-                        <h4 class="card-title">Pet Grooming</h4>
+                        <h4 id="themedark" class="card-title">Pet Grooming</h4>
                         <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
                             Lorem
                             ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#">Read More</a>
+                        <a id="themedark" href="#">Read More</a>
                     </div>
                 </div>
             </div>
@@ -220,29 +223,29 @@
                 <div class=" col-lg-6 whychoose__left">
                     <div class="title">
                         <p>WHY CHOOSE US</p>
-                        <h3>What We Offer For You</h3>
+                        <h3 id="themedark">What We Offer For You</h3>
                         <span class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod
                             tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor
                             sit amet, consectetur adipisicingelit.</span>
                     </div>
                     <ul>
-                        <li>
+                        <li id="themedark">
                             <i class="fa-solid fa-check"></i>
                             Certified Groomer
                         </li>
-                        <li>
+                        <li id="themedark">
                             <i class="fa-solid fa-check"></i>
                             10 Years of Experience
                         </li>
-                        <li>
+                        <li id="themedark">
                             <i class="fa-solid fa-check"></i>
                             Pet Lover
-                        </li>
-                        <li><i class="fa-solid fa-check"></i>
+                        </li >
+                        <li id="themedark"><i class="fa-solid fa-check"></i>
                             Customer Supports
                         </li>
-                        <li>
+                        <li id="themedark">
                             <i class="fa-solid fa-check"></i>
                             Veterinary Help
                         </li>
@@ -273,16 +276,16 @@
             </div>
         </div>
     </section>
-    <section class="ourplan py-5">
+    <section id="themeDark2" class="ourplan py-5">
         <div class="container py-5">
             <div class="title text-center mb-5">
                 <p>Our Plans</p>
-                <h3>Affordable Packages</h3>
+                <h3 id="themedark">Affordable Packages</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 ourplan__item ourplan__screen ">
+                <div id="myBody" class="col-lg-4 ourplan__item ourplan__screen ">
                     <div class="title_packages">
-                        <h3>Free Package</h3>
+                        <h3 id="themedark">Free Package</h3>
                         <h4>
                             <label>$</label>0<span>/month</span>
                         </h4>
@@ -295,12 +298,12 @@
                             <p>Free Supports</p>
                             <p>Customer Support</p>
                         </div>
-                        <div class="btn-buy">
+                        <div id="btn_buy" class="btn-buy">
                             <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ourplan__item_center ourplan__screen">
+                <div  class="col-lg-4 ourplan__item_center ourplan__screen">
                     <div class="title_packages">
                         <p>SAVE 10%</p>
                         <h3>Standard Package</h3>
@@ -308,7 +311,7 @@
                             <label>$</label>39<span>/month</span>
                         </h4>
                     </div>
-                    <div class="List__packages">
+                    <div id="myBody"" class="List__packages">
                         <div class="List">
                             <p>5 Dog Walk</p>
                             <p>3 Vet Visit</p>
@@ -316,14 +319,14 @@
                             <p>Free Supports</p>
                             <p>Customer Support</p>
                         </div>
-                        <div class="btn-buy">
+                        <div  id="btn_buy" class="btn-buy">
                             <button>Get Started</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ourplan__item ourplan__screen">
+                <div id="myBody" class="col-lg-4 ourplan__item ourplan__screen">
                     <div class="title_packages">
-                        <h3>Pro Package</h3>
+                        <h3 id="themedark">Pro Package</h3>
                         <h4>
                             <label>$</label>89<span>/month</span>
                         </h4>
@@ -336,7 +339,7 @@
                             <p>Free Supports</p>
                             <p>Customer Support</p>
                         </div>
-                        <div class="btn-buy">
+                        <div id="btn_buy" class="btn-buy">
                             <button>Buy Now</button>
                         </div>
                     </div>
@@ -394,6 +397,7 @@
             }
         })
     </script>
+    <script src="./js/darklight/darklight.js"></script>
 </body>
 
 </html>
